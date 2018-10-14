@@ -1,4 +1,4 @@
-const v1 = require('../../cloudinary.js');
+const v1 = require('../cloudinary.js');
 const clone = require('lodash/clone');
 const v2 = clone(v1);
 v2.api = require('./api');
